@@ -1,14 +1,14 @@
 <template>
-  <h1>  web-form</h1>
+  <SignupForm />
 </template>
 
 <script>
-
+import SignupForm from './components/SignupForm'
 
 export default {
   name: 'App',
   components: {
-  
+  SignupForm,
   }
 }
 </script>
